@@ -1,31 +1,33 @@
-# Cancer Classifier using CNN
+# Cancer Classifier using CNN 🌟
 
-## Decscription
+## Description
 
-This is an exploration into CNNs for classification of data and working with biological data specficially cancer images
+This project explores the use of Convolutional Neural Networks (CNNs) for classifying biological data, specifically cancer images. 📸
 
-## Goal
+## Research Question 
+What is the best format to create models to classify cancer cells for diverse cell types? 
 
-The goal of this project is to create a model that is able to classify cancer cells with 80% accuracy based on the given data set
+## Goal 🎯
 
-## Data
+The primary objective of this project is to create a model capable of accurately classifying cancer cells with an 80% accuracy rate, based on the provided dataset. 🧬
 
-This data set uses images found on kaggle at
-[[https://www.kaggle.com/datasets/andrewmvd/lung-and-colon-cancer-histopathological-images?resource=download]]
-Which is classified into 5 categories: - Lung benign tissue - Lung adenocarcinoma - Lung squamous cell carcinoma - Colon adenocarcinoma - Colon benign tissue
+## Data 📊
 
-## Status
+The dataset consists of images sourced from Kaggle: [Lung and Colon Cancer Histopathological Images](https://www.kaggle.com/datasets/andrewmvd/lung-and-colon-cancer-histopathological-images?resource=download). It includes five categories:
+
+1. **Lung benign tissue** 🦠
+2. **Lung adenocarcinoma** 🦠
+3. **Lung squamous cell carcinoma** 🦠
+4. **Colon adenocarcinoma** 🦠
+5. **Colon benign tissue** 🦠
+
+## Project Status 🚀
 
 ### Progress
 
-The data pipeline has been set up along with the model and the accuracy tests to see how well the model is preforming
+I have successfully set up the data pipeline and model. Currently, the model achieves 90% accuracy in classifying colon cells as cancerous or non-cancerous. However, the challenge lies in classifying lung cells due to their diverse types and various cancers. I am currently exploring different hyperparameters to improve lung cell classification. 💡
 
-## Issues
+## Future Work 🔮
 
-Currently the accuracy sits around 30% and has large miss classifications across both lung and colon images. 
+Moving forward, I plan to test various model configurations and combine the best parameters to create a tuned model. Evaluating accuracy will be crucial to assess any improvements achieved. 📈
 
-## Future Work
-
-Will try to see if the model can start by identifying the difference between benign lung tissue and benign colon tissue to see if it is just a sampling issue. Will likely have to change to a binary classification for this step. 
-
-After trying tweaking the model itself I think going forward instead of using a self-trained model using only 25000 images for testing instead starting with an already trained model and then training it on the data set to see if the results improve. Due to the lack of data and quality data it could be affecting the results and not allowing for the model to generalize properly.
