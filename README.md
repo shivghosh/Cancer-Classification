@@ -29,6 +29,11 @@ Now with the increased model size I have been able to classify with 91% accuracy
 
 ![Confusion Matrix](./Confision%20Matrix.png)
 
+Calculated Metrics:
+Precision: 0.9994892477989197
+Recall: 0.9974516034126282
+Accuracy: 0.9102563858032227
+
 ## Future Work 🔮
 
 Moving forward, I plan to test various model configurations and combine the best parameters to create a tuned model. Evaluating accuracy will be crucial to assess any improvements achieved. 📈
