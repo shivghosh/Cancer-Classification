@@ -25,7 +25,9 @@ The dataset consists of images sourced from Kaggle: [Lung and Colon Cancer Histo
 
 ### Progress
 
-I have successfully set up the data pipeline and model. Currently, the model achieves 90% accuracy in classifying colon cells as cancerous or non-cancerous. However, the challenge lies in classifying lung cells due to their diverse types and various cancers. I am currently exploring different hyperparameters to improve lung cell classification. 💡
+Now with the increased model size I have been able to classify with 91% accuracy. The model has no false positives with classifying non cancer as cancer and you can see the confusion matrix below 💡
+
+![Confusion Matrix](./Confision%20Matrix.png)
 
 ## Future Work 🔮
 
